@@ -1,0 +1,86 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 5rem;
+    background-image: url('../image/bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.header {
+    text-align: center;
+    color: cornflowerblue;
+    font-weight: bolder;
+}
+
+
+.selector {
+    width: 5rem;
+    cursor: pointer;
+    margin: 5px;
+    height: 3rem;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    border: black;
+    background-color: cornflowerblue;
+}
+
+.selector:hover {
+    color: rgb(0, 0, 0);
+    background-color: cornflowerblue;
+}
+
+.ToDoDiv {
+    margin: 30px;
+}
+
+input[type="checkbox"] {
+    width: 1.1em;
+    height: 1rem;
+    accent-color: cornflowerblue;
+}
+
+input[type="text"] {
+    flex: 2;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 40%;
+    background: #00000038;
+    font-size: large;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.11);
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+button.delete-btn {
+    background: #dc3546b2;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button.delete-btn:hover {
+    background: #c82333;
+}
+
+.todo-item.completed label {
+    text-decoration: line-through;
+    color: #dc3546c9;
+}

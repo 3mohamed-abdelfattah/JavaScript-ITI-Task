@@ -1,11 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ToDo List</title>
+    <link rel="stylesheet" href="resources/css/style.css">
 </head>
+
 <body>
-    
+    <h1 class="header">TODO LIST</h1>
+    <form id="todo-form" style="text-align: center;">
+        <input type="text" id="todo-input" placeholder="Add a new task">
+        <button type="submit" class="selector">Add</button>
+        <select id="filter" class="selector">
+            <option value="all">ALL</option>
+            <option value="completed">DONE</option>
+            <option value="uncompleted">TODO</option>
+        </select>
+    </form>
+    <div class="ToDoDiv">
+        <ul id="todo-list"></ul>
+    </div>
+    <script src="resources/js/script.js"></script>
 </body>
+
 </html>
