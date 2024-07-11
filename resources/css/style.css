@@ -65,6 +65,7 @@ li {
     justify-content: space-between;
     align-items: center;
     border-radius: 10px;
+    gap: 20px;
 }
 
 button.delete-btn {
@@ -74,10 +75,40 @@ button.delete-btn {
     padding: 5px;
     cursor: pointer;
     border-radius: 5px;
+    margin-left: 5px;
 }
 
 button.delete-btn:hover {
     background: #c82333;
+    color: black;
+}
+
+button.edit-btn {
+    background: rgba(0, 128, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button.edit-btn:hover {
+    background: rgba(0, 128, 0, 0.685);
+    color: black;
+}
+
+button.save-btn {
+    background: #0094f69c;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button.save-btn:hover {
+    background: #0094F6;
+    color: black;
 }
 
 .todo-item.completed label {
