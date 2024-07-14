@@ -3,6 +3,9 @@
 ## Task Description
 This Task is a simple ToDo List built with vanilla JavaScript, HTML, and CSS. The application allows users to create, edit, delete, and manage tasks. Tasks can be marked as finished and will move from the "ToDo" section to the "Finished" section.
 
+![image](https://github.com/user-attachments/assets/a6a69849-0278-40e4-a3e3-f62db7241934)
+
+
 ## Features
 - **Create Task**: Add new tasks to the ToDo section.
 - **Edit Task**: Modify the content of existing tasks.
